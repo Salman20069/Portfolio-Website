@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Projects</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+header{
+    background:#222;
+    color:#fff;
+    text-align:center;
+    padding:20px;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:40px auto;
+}
+
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#fff;
+    border-radius:10px;
+    padding:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.image{
+    height:180px;
+    background:#ddd;
+    border-radius:8px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:22px;
+    color:#555;
+    margin-bottom:20px;
+}
+
+h2{
+    color:#007BFF;
+    margin-bottom:10px;
+}
+
+p{
+    line-height:1.6;
+    color:#555;
+}
+
+.button{
+    display:inline-block;
+    margin-top:20px;
+    padding:10px 20px;
+    background:#007BFF;
+    color:white;
+    text-decoration:none;
+    border-radius:6px;
+}
+
+.button:hover{
+    background:#0056b3;
+}
+
+footer{
+    margin-top:40px;
+    background:#222;
+    color:#fff;
+    text-align:center;
+    padding:15px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<h1>My Projects</h1>
+<p>Here are some of my web development projects.</p>
+</header>
+
+<div class="container">
+
+<div class="projects">
+
+<div class="card">
+<div class="image">🍕 Pizza App</div>
+<h2>Pizza Delivery Website</h2>
+<p>
+A responsive pizza ordering website with login, menu, cart,
+checkout, and order confirmation pages.
+</p>
+<a href="#" class="button">View Project</a>
+</div>
+
+<div class="card">
+<div class="image">🌐 Landing Page</div>
+<h2>Landing Page</h2>
+<p>
+A modern responsive landing page created using HTML and CSS
+with a clean UI design.
+</p>
+<a href="#" class="button">View Project</a>
+</div>
+
+<div class="card">
+<div class="image">💼 Portfolio</div>
+<h2>Portfolio Website</h2>
+<p>
+A personal portfolio website to showcase skills, projects,
+resume, and contact information.
+</p>
+<a href="#" class="button">View Project</a>
+</div>
+
+<div class="card">
+<div class="image">📝 Blog</div>
+<h2>Blog Website</h2>
+<p>
+A blog page built with HTML and CSS where users can read and
+publish articles.
+</p>
+<a href="#" class="button">View Project</a>
+</div>
+
+</div>
+
+</div>
+
+<footer>
+© 2026 Salman | My Portfolio
+</footer>
+
+</body>
+</html>
